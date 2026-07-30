@@ -1,0 +1,426 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNCab17cwCcJhunJiehqANV",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jagadeeshpolamarasetty666-del/program1-week1/blob/main/week2/week2.ipnyb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "LRjst8o7IkqG"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Finding greatest among three numbers\n"
+      ],
+      "metadata": {
+        "id": "LEgRkwONc_Ny"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input())\n",
+        "b=int(input())\n",
+        "c=int(input())\n",
+        "print(\"given numbers are 54\",a,b,c)\n",
+        "if(a>b and a>c):\n",
+        "  print(f\"{a} is greater\")\n",
+        "elif(b>c and b>a):\n",
+        "  print(f\"{b} is greater\")\n",
+        "else:\n",
+        "  print(f\"{c} is greater\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0jEdQMCedG38",
+        "outputId": "50d94972-3c7b-4172-a9b5-ec4dbadf2e02"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3\n",
+            "4\n",
+            "5\n",
+            "given numbers are 54 3 4 5\n",
+            "5 is greater\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input())\n",
+        "if(a%3==0):\n",
+        "  print(\"FIZZ\")\n",
+        "elif(a%5==0):\n",
+        "  print(\"BUZZ\")\n",
+        "else:\n",
+        "  print(\"FIZZBUZZ\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ae2D6qXrgMkS",
+        "outputId": "240aff0c-545d-43eb-d784-b34a005ea28c"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3\n",
+            "FIZZ\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#DIVISIBILITY ONLY BY 3"
+      ],
+      "metadata": {
+        "id": "1dHj2t9-hRfB"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input())\n",
+        "if(a%3==0 and a%5!=0):\n",
+        "  print(\"FIZZ\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lakrk5qxhU_c",
+        "outputId": "b1bdaa4d-95cf-4f72-a032-31f8d2cd16d7"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "6\n",
+            "FIZZ\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#reading two complex numbers and performing addition and subtraction"
+      ],
+      "metadata": {
+        "id": "0o19ePqWiS5u"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=complex(input(\"enter first complex number\"))\n",
+        "b=complex(input(\"enter second complex number\"))\n",
+        "print(a+b,a*b)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C4bqA8_LiYnn",
+        "outputId": "71ee6c3a-eb5e-4e82-c086-38e430135740"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter first complex number1+3j\n",
+            "enter second complex number2+4j\n",
+            "(3+7j) (-10+10j)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#SWAPPING TWO NUMBERS WITHOUT USING TEMP VARIABLE"
+      ],
+      "metadata": {
+        "id": "kh3WL8aojTEC"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input())\n",
+        "b=int(input())\n",
+        "print(\"before swap a and b are\",a,b)\n",
+        "a,b=b,a\n",
+        "print(\"after a and b are \",a,b)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vuqEEMI_jaWD",
+        "outputId": "cd89fd02-933f-49ed-ed9d-dcf7e15ee595"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2\n",
+            "3\n",
+            "before swap a and b are 2 3\n",
+            "after a and b are  3 2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Match case"
+      ],
+      "metadata": {
+        "id": "fbLfVqP9m6Sv"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "day=int(input(\"enter number:\"))\n",
+        "match day:\n",
+        "  case 1:\n",
+        "    print(\"sunday\")\n",
+        "  case 2:\n",
+        "    print(\"monday\")\n",
+        "  case 3:\n",
+        "    print(\"tuesday\")\n",
+        "  case 4:\n",
+        "    print(\"wednesday\")\n",
+        "  case 5:\n",
+        "    print(\"thursday\")\n",
+        "  case 6:\n",
+        "    print(\"friday\")\n",
+        "  case 7:\n",
+        "    print(\"saturday\")\n",
+        "  case _:\n",
+        "    print(\"invalid\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LAIZ2LhWm8B1",
+        "outputId": "b15dcde7-6c34-47a6-b3bb-c354b6e1d71e"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter number:4\n",
+            "wednesday\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Loops"
+      ],
+      "metadata": {
+        "id": "_HQFTnDBpjJs"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "number from 1-10"
+      ],
+      "metadata": {
+        "id": "VNOSCBgss6Ru"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "i=1\n",
+        "while(i<=10):\n",
+        "  print(i)\n",
+        "  i=i+1\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wTU4u3iss8y3",
+        "outputId": "2d19153f-1d99-4aac-d5cd-0c3efd4069fb"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n",
+            "8\n",
+            "9\n",
+            "10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "i=10\n",
+        "while(i>=0):\n",
+        "  print(i)\n",
+        "  i=i-1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7gt0WyuFtKKV",
+        "outputId": "1501703e-2cf5-4ffc-87b1-8ebac44462c2"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n",
+            "9\n",
+            "8\n",
+            "7\n",
+            "6\n",
+            "5\n",
+            "4\n",
+            "3\n",
+            "2\n",
+            "1\n",
+            "0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "i=1\n",
+        "while(i<=10):\n",
+        "  if(i%2==0):\n",
+        "    print(i,end=\" \")\n",
+        "  i=i+1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7_40CZ3RtXQH",
+        "outputId": "f89d7174-948b-42c5-b074-e1609af94c90"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2 4 6 8 10 "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "i=10\n",
+        "while(i>=0):\n",
+        "  if(i%2==0):\n",
+        "    print(i,end=\" \")\n",
+        "  i=i-1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fH5j9EXRtlzG",
+        "outputId": "5a310ce6-d626-46da-fb3d-0017bee6166f"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10 8 6 4 2 0 "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "iRFO-Ramtwav"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
