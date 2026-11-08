@@ -8,7 +8,7 @@ Welcome to my comprehensive Python programming portfolio! This repository tracks
 
 ---
 
-## 🏆 Certifications & Achievements
+##  Certifications & Achievements
 * **The Joy of Computing Using Python (NPTEL Online Certification)**
   * **Result:** Elite Grade with a consolidated score of **94%** (Assignments: 24.85/25, Proctored Exam: 68.25/75)[cite: 11].
   * **Issued by:** Indian Institute of Technology Madras (IITM)[cite: 11].
@@ -16,7 +16,7 @@ Welcome to my comprehensive Python programming portfolio! This repository tracks
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 | Directory | Core Topics & Focus Areas |
 | :--- | :--- |
@@ -27,36 +27,18 @@ Welcome to my comprehensive Python programming portfolio! This repository tracks
 | **`Unit-V-Introduction-to-Data-Science/`** | Functional Programming, NumPy Arrays, Pandas DataFrames, and Data Exploration[cite: 4]. |
 | **`DSA-Practice/`** | Upcoming implementations of Data Structures and Algorithms in Python. |
 
----
-
-## 💻 Tech Stack & Tools
+##  Tech Stack & Tools
 * **Language:** Python 3
 * **Environment:** Jupyter Notebooks (`.ipynb`), Google Colab, and VS Code
 * **Libraries:** NumPy, Pandas, Matplotlib
 ```[cite: 11]
 
----
 
-## 3. How to Handle the Missing Units (III, IV, and V)
-
-Even if you missed some classes, having empty or skeleton directories looks unfinished. To make your profile look active and thorough, you can add basic Jupyter notebooks (`.ipynb`) with boilerplate or standard implementations for those units. 
-
-If you'd like, we can write out clean code files for:
-1. **Unit III:** Dictionary and tuple manipulation experiments[cite: 3].
-2. **Unit IV:** File reading/writing scripts and Object-Oriented class structures (like shape hierarchies)[cite: 4].
-3. **Unit V:** NumPy array slicing and Pandas DataFrame operations[cite: 4].
-
----
-
-## 4. Preparing for the Future DSA Transition
-
-When you are ready to pivot into **Data Structures and Algorithms (DSA)**, you won't need to restructure your repo. You can simply create a `DSA-Practice/` directory structured by topic:
-
-```text
-Python-programs/
+ ## Python-programs/
 ├── DSA-Practice/
 │   ├── 01-Arrays-and-Strings/
 │   ├── 02-Sorting-and-Searching/
 │   ├── 03-Linked-Lists/
 │   ├── 04-Stacks-and-Queues/
 │   └── 05-Trees-and-Graphs/
+
