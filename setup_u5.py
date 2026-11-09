@@ -1,0 +1,42 @@
+
+import json, os
+
+colab_notebook = {
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {"provenance": []},
+    "kernelspec": {"name": "python3", "display_name": "Python 3"},
+    "language_info": {"name": "python"}
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": None,
+      "metadata": {},
+      "outputs": [{"output_type": "stream", "name": "stdout", "text": ["12.56\n"]}],
+      "source": [
+        "class Shape:\n  def area(self):\n    pass\n  def perimeter(self):\n    pass\n\nclass circle(Shape):\n  def __init__(self,r):\n    self.r=r\n  def area(self):\n    return self.r*self.r*3.14\n\ns1=circle(2)\nprint(s1.area())"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "outputs": [{"output_type": "stream", "name": "stdout", "text": ["<__main__.Shape object at 0x7fae32727620>\n"]}],
+      "source": ["print(s1)"]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "outputs": [{"output_type": "stream", "name": "stdout", "text": ["import numpy as np\na=np.array([1,2,3])\nprint(a)\n"]}],
+      "source": ["import numpy as np\na=np.array([1,2,3])\nprint(a)"]
+    }
+  ]
+}
+
+os.makedirs("UNIT-V-INTRODUCTION-TO-DATA-SCIENCE", exist_ok=True)
+with open("UNIT-V-INTRODUCTION-TO-DATA-SCIENCE/unit5.ipynb", "w", encoding="utf-8") as f:
+    json.dump(colab_notebook, f, indent=2)
+
+print("Unit 5 notebook successfully created!")
+
