@@ -1,4 +1,11 @@
 # Python Programming & Practical Mastery
+---
+### Student Details
+* **Name:** POLAMARASETTY JAGADEESH
+* **Roll Number:** `25PA1A4598`
+* **Institution:** Vishnu Institute of Technology
+* **Department:** Computer Science and Engineering (AI & DS)
+---
 
 [![NPTEL Elite Certification](https://img.shields.io/badge/NPTEL-Elite%20(94%25)-blue.svg)](https://swayam.gov.in)
 [![Python 3.x](https://img.shields.io/badge/Python-3.x-success.svg)](https://www.python.org)
